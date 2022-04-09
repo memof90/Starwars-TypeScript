@@ -19,20 +19,20 @@ export function Header() {
       <nav>
         <Link to="/">
           <MdPersonSearch size={20} />
-          Personagens
+          Characters
         </Link>
 
         <Link to="/films">
           <MdMovie size={20} />
-          Filmes
+          Films
         </Link>
         <Link to="/starships">
           <IoMdJet size={20} />
-          Naves Espaciais
+          Spaceships
         </Link>
         <Link to="/vehicles">
           <MdDirectionsCarFilled size={20} />
-          Veículos
+          Vehicles
         </Link>
       </nav>
     </Container>
