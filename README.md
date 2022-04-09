@@ -22,19 +22,38 @@ yarn dev
 
 On each page you can search for a specific character, movie, vehicle or spaceship. You can also save as a favorite to view in a different section.
 
+## How the app works
+
+![alt text](https://github.com/memof90/screenProjects/blob/master/Starwars/app-2.gif?raw=true)
+
+ ## Screens Apps
+ 
+ <table>
+  <tr>
+    <td>Contct List</td>
+     <td>search Items</td>
+     <td>Empty List</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/memof90/screenProjects/blob/master/Starwars/Captura%20de%20Pantalla%202022-04-09%20a%20la(s)%202.17.12%20p.%C2%A0m..png?raw=true" width=270 height=480></td>
+    <td><img src="https://github.com/memof90/screenProjects/blob/master/Starwars/Captura%20de%20Pantalla%202022-04-09%20a%20la(s)%202.17.20%20p.%C2%A0m..png?raw=true" width=270 height=480></td>
+     <td><img src="https://github.com/memof90/screenProjects/blob/master/Starwars/Captura%20de%20Pantalla%202022-04-09%20a%20la(s)%202.17.32%20p.%C2%A0m..png?raw=true" width=270 height=480></td>
+  </tr>
+ </table>
+
 
 ## Pages
 
 The app basically:
 
-- "/": Home page (Characters);
-- "/characters/:id": Specific character's page;
-- "/films": Films' page;
-- "/films/:id": Specific film's page;
-- "/starships": Starships' page;
-- "/starship/:id": Specific starship's page;
-- "/vehicles": Vehicles' page;
-- "/vehicles/:id": Specific vehicle page;
+[x] "/": Home page (Characters);
+[x] "/characters/:id": Specific character's page;
+[x] "/films": Films' page;
+[x] "/films/:id": Specific film's page;
+[x] "/starships": Starships' page;
+[x] "/starship/:id": Specific starship's page;
+[x] "/vehicles": Vehicles' page;
+[x] "/vehicles/:id": Specific vehicle page;
 
 
 ## What technologies does this project use?
@@ -43,23 +62,16 @@ The whole app was made with ReactJs. To style, it's uses styled-components.
 
 Others importants libs was used also:
 
-- React Redux (to save all favourites states)
-- Axios (to make requests to API);
-- Lottie (to make the animations with lottiefiles in JSON);
-- Lodash (to make debounce);
-- React Router DOM v6;
-- Polished;
-- React Icons.
+[x] React Redux (to save all favourites states)
+[x] Axios (to make requests to API);
+[x] Lottie (to make the animations with lottiefiles in JSON);
+[x] Lodash (to make debounce);
+[x] React Router DOM v6;
+[x] Polished;
+[x] React Icons.
 
-## About the author
-The entire app was made by me.
-
+## About the Api
 All Data Provided By [SWAPI](https://swapi.dev/)
 
-[LinkedIn](https://www.linkedin.com/in/kameikay/)
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
-
 ## Demo
-[Star Wars](https://kameikay-starwars.netlify.app/)
+[Star Wars](https://chimerical-parfait-270191.netlify.app)
