@@ -35,9 +35,9 @@ On each page you can search for a specific character, movie, vehicle or spaceshi
      <td>Empty List</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/memof90/screenProjects/blob/master/Starwars/Captura%20de%20Pantalla%202022-04-09%20a%20la(s)%202.17.12%20p.%C2%A0m..png?raw=true" width=270 height=480></td>
-    <td><img src="https://github.com/memof90/screenProjects/blob/master/Starwars/Captura%20de%20Pantalla%202022-04-09%20a%20la(s)%202.17.20%20p.%C2%A0m..png?raw=true" width=270 height=480></td>
-     <td><img src="https://github.com/memof90/screenProjects/blob/master/Starwars/Captura%20de%20Pantalla%202022-04-09%20a%20la(s)%202.17.32%20p.%C2%A0m..png?raw=true" width=270 height=480></td>
+    <td><img src="https://github.com/memof90/screenProjects/blob/master/Starwars/Captura%20de%20Pantalla%202022-04-09%20a%20la(s)%202.17.12%20p.%C2%A0m..png?raw=true"></td>
+    <td><img src="https://github.com/memof90/screenProjects/blob/master/Starwars/Captura%20de%20Pantalla%202022-04-09%20a%20la(s)%202.17.20%20p.%C2%A0m..png?raw=true"></td>
+     <td><img src="https://github.com/memof90/screenProjects/blob/master/Starwars/Captura%20de%20Pantalla%202022-04-09%20a%20la(s)%202.17.32%20p.%C2%A0m..png?raw=true"></td>
   </tr>
  </table>
 
@@ -46,14 +46,14 @@ On each page you can search for a specific character, movie, vehicle or spaceshi
 
 The app basically:
 
-[x] "/": Home page (Characters);
-[x] "/characters/:id": Specific character's page;
-[x] "/films": Films' page;
-[x] "/films/:id": Specific film's page;
-[x] "/starships": Starships' page;
-[x] "/starship/:id": Specific starship's page;
-[x] "/vehicles": Vehicles' page;
-[x] "/vehicles/:id": Specific vehicle page;
+- [x] "/": Home page (Characters);
+- [x] "/characters/:id": Specific character's page;
+- [x] "/films": Films' page;
+- [x] "/films/:id": Specific film's page;
+- [x] "/starships": Starships' page;
+- [x] "/starship/:id": Specific starship's page;
+- [x] "/vehicles": Vehicles' page;
+- [x] "/vehicles/:id": Specific vehicle page;
 
 
 ## What technologies does this project use?
