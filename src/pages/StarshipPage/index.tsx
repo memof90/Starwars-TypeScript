@@ -45,30 +45,30 @@ export default function StartshipPage() {
               </p>
 
               <p>
-                Fabricante:
+                Manufacturer:
                 {' '}
                 <span>{data?.manufacturer}</span>
               </p>
 
               <p>
-                Classe:
+                Class:
                 {' '}
                 <span>{data?.starship_class}</span>
               </p>
 
               <p>
-                Preço:
+                Price:
                 {' '}
                 <span>
                   {data?.cost_in_credits}
                   {' '}
-                  créditos
+                  credits
                   {' '}
                 </span>
               </p>
 
               <p>
-                Velocidade:
+                Speed:
                 {' '}
                 <span>
                   {data?.max_atmosphering_speed}
@@ -79,7 +79,7 @@ export default function StartshipPage() {
               </p>
 
               <p>
-                Classificação do hiperdrive:
+                Hyperdrive Classification:
                 {' '}
                 <span>
                   {data?.hyperdrive_rating}
@@ -93,7 +93,7 @@ export default function StartshipPage() {
                 <span>{data?.MGLT}</span>
               </p>
               <p>
-                Tamanho:
+                Size:
                 {' '}
                 <span>
                   {data?.length}
@@ -101,7 +101,7 @@ export default function StartshipPage() {
                 </span>
               </p>
               <p>
-                Capacidade de carga:
+                Charge capacity:
                 {' '}
                 <span>
                   {data?.cargo_capacity}
@@ -109,12 +109,12 @@ export default function StartshipPage() {
                 </span>
               </p>
               <p>
-                Frota mínima:
+                Minimum fleet:
                 {' '}
                 <span>{data?.crew}</span>
               </p>
               <p>
-                Passageiros:
+                passengers:
                 {' '}
                 <span>{data?.passengers}</span>
               </p>
@@ -125,7 +125,7 @@ export default function StartshipPage() {
             ) : (
               <div className="starships-data-others">
                 <div className="starships-data-others-data">
-                  <h2>Filmes:</h2>
+                  <h2>Movies:</h2>
                   <ul>
                     {films.map((film) => (
                       <li key={film.name}>
@@ -139,9 +139,9 @@ export default function StartshipPage() {
                 </div>
 
                 <div className="starships-data-others-data">
-                  <h2>Pilotos:</h2>
+                  <h2>Pilots:</h2>
                   {pilot.length < 1 ? (
-                    <span>Não possui pilotos</span>
+                    <span>does not have pilots</span>
                   ) : (
                     <ul>
                       {pilot.map((pilots) => (

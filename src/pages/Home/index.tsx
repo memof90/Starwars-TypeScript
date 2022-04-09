@@ -77,7 +77,7 @@ export default function Home() {
     <Container>
       <div className="title">
         <h1>
-          Buscador -
+          Searching -
           {' '}
           <span>Star Wars</span>
         </h1>
@@ -98,13 +98,13 @@ export default function Home() {
             isSelected={isFavouriteSelected === false}
             onClick={() => setIsFavouriteSelected(false)}
           >
-            Todos
+            Alls
           </SelectButton>
           <SelectButton
             isSelected={isFavouriteSelected === true}
             onClick={() => setIsFavouriteSelected(true)}
           >
-            Favoritos
+            Favourites
           </SelectButton>
         </div>
 

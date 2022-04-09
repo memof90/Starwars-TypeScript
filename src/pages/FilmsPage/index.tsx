@@ -51,25 +51,25 @@ export default function FilmPage() {
             <div className="films-data-details">
               <h1>{data?.title}</h1>
               <p>
-                Data de criação:
+                Creation date:
                 {' '}
                 <span>{data?.release_date}</span>
               </p>
 
               <p>
-                Diretor:
+                Director:
                 {' '}
                 <span>{data?.director}</span>
               </p>
 
               <p>
-                Produção:
+                Production:
                 {' '}
                 <span>{data?.producer}</span>
               </p>
 
               <p>
-                Sinopse:
+                Synopsis:
                 {' '}
                 <span>
                   {data?.opening_crawl}
@@ -83,7 +83,7 @@ export default function FilmPage() {
             ) : (
               <>
                 <div className="films-data-characters">
-                  <h2>Personagens:</h2>
+                  <h2>Characters:</h2>
                   <ul>
                     {characters.map((character) => (
                       <li key={character.name}>
@@ -98,7 +98,7 @@ export default function FilmPage() {
 
                 <div className="films-data-others">
                   <div className="films-data-others-data">
-                    <h2>Planetas</h2>
+                    <h2>planets</h2>
                     <ul>
                       {planets.map((planet) => (
                         <li key={planet.name}>
@@ -110,7 +110,7 @@ export default function FilmPage() {
                   </div>
 
                   <div className="films-data-others-data">
-                    <h2>Veículos</h2>
+                    <h2>vehicles</h2>
                     <ul>
                       {vehicles.map((vehicle) => (
                         <li key={vehicle.name}>
@@ -126,7 +126,7 @@ export default function FilmPage() {
 
                 <div className="films-data-others">
                   <div className="films-data-others-data">
-                    <h2>Naves</h2>
+                    <h2>ships</h2>
                     <ul>
                       {starships.map((starship) => (
                         <li key={starship.name}>
@@ -140,7 +140,7 @@ export default function FilmPage() {
                   </div>
 
                   <div className="films-data-others-data">
-                    <h2>Espécies</h2>
+                    <h2>Species</h2>
                     <ul>
                       {species.map((specie) => (
                         <li key={specie.name}>

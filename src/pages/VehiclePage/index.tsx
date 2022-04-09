@@ -45,19 +45,19 @@ export default function VehiclePage() {
               </p>
 
               <p>
-                Fabricante:
+                Manufacturer:
                 {' '}
                 <span>{data?.manufacturer}</span>
               </p>
 
               <p>
-                Classe:
+                Class:
                 {' '}
                 <span>{data?.vehicle_class}</span>
               </p>
 
               <p>
-                Preço:
+                Price:
                 {' '}
                 <span>
                   {data?.cost_in_credits}
@@ -68,7 +68,7 @@ export default function VehiclePage() {
               </p>
 
               <p>
-                Velocidade:
+                Speed:
                 {' '}
                 <span>
                   {data?.max_atmosphering_speed}
@@ -79,7 +79,7 @@ export default function VehiclePage() {
               </p>
 
               <p>
-                Tamanho:
+                Size:
                 {' '}
                 <span>
                   {data?.length}
@@ -87,7 +87,7 @@ export default function VehiclePage() {
                 </span>
               </p>
               <p>
-                Capacidade de carga:
+                capacity:
                 {' '}
                 <span>
                   {data?.cargo_capacity}
@@ -95,12 +95,12 @@ export default function VehiclePage() {
                 </span>
               </p>
               <p>
-                Frota mínima:
+                Minimum fleet:
                 {' '}
                 <span>{data?.crew}</span>
               </p>
               <p>
-                Passageiros:
+                Passangers:
                 {' '}
                 <span>{data?.passengers}</span>
               </p>
@@ -111,7 +111,7 @@ export default function VehiclePage() {
             ) : (
               <div className="vehicles-data-others">
                 <div className="vehicles-data-others-data">
-                  <h2>Filmes:</h2>
+                  <h2>Movies:</h2>
                   <ul>
                     {films.map((film) => (
                       <li key={film.name}>
@@ -125,9 +125,9 @@ export default function VehiclePage() {
                 </div>
 
                 <div className="vehicles-data-others-data">
-                  <h2>Pilotos:</h2>
+                  <h2>Pilots:</h2>
                   {pilot.length < 1 ? (
-                    <span>Não possui pilotos</span>
+                    <span>does not have pilots</span>
                   ) : (
                     <ul>
                       {pilot.map((pilots) => (

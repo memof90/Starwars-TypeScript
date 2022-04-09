@@ -83,7 +83,7 @@ export default function Vehicles() {
         {!isFavouriteSelected && (
           <InputSearch
             type="text"
-            placeholder="Digite o nome do veículo a ser buscado..."
+            placeholder="Enter the name of the vehicle to be searched..."
             onChange={(event) => debouncedOnChange(event)}
           />
         )}
@@ -163,7 +163,7 @@ export default function Vehicles() {
       {isLoading ? (
         <div className="loading">
           <Loading />
-          <span>Carregando dados...</span>
+          <span>Load data...</span>
         </div>
       ) : !isFavouriteSelected ? (
         <div className="cards">

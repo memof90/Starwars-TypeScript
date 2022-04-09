@@ -7,11 +7,11 @@ export function Footer() {
       <p>
         Desenvolvido por
         {' '}
-        <a href="https://www.linkedin.com/in/kameikay/">Victor Kamei Kay</a>
+        <a href="https://www.linkedin.com/in/guillermo-andr%C3%A9s-figueredo-aranguren-814465127">Memo Figueredo</a>
         .
         {' '}
         <br />
-        Todos os dados foram obtidos do
+        Todos los derechos reservados
         {' '}
         <a href="https://swapi.dev/">SWAPI</a>
         .

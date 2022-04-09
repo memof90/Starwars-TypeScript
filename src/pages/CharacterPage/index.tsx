@@ -45,25 +45,25 @@ export default function CharacterPage() {
             <div className="character-data-details">
               <h1>{data?.name}</h1>
               <p>
-                Planeta natal:
+                home planet:
                 {' '}
                 <span>{homeWorld.name}</span>
               </p>
 
               <p>
-                Data de nascimento:
+                birth data:
                 {' '}
                 <span>{data?.birth_year}</span>
               </p>
 
               <p>
-                Gênero:
+                Gender:
                 {' '}
                 <span>{data?.gender}</span>
               </p>
 
               <p>
-                Altura:
+                Height:
                 {' '}
                 <span>
                   {data?.height}
@@ -73,7 +73,7 @@ export default function CharacterPage() {
               </p>
 
               <p>
-                Peso:
+                Weight:
                 {' '}
                 <span>
                   {data?.mass}
@@ -83,19 +83,19 @@ export default function CharacterPage() {
               </p>
 
               <p>
-                Cor da pele:
+                Skin color:
                 {' '}
                 <span>{data?.skin_color}</span>
               </p>
 
               <p>
-                Cor dos olhos:
+                Eye color:
                 {' '}
                 <span>{data?.eye_color}</span>
               </p>
 
               <p>
-                Cor do cabelo:
+                Hair color:
                 {' '}
                 <span>{data?.hair_color}</span>
               </p>
@@ -121,12 +121,12 @@ export default function CharacterPage() {
                         ))}
                       </ul>
                     ) : (
-                      <span>Não há.</span>
+                      <span>There is not.</span>
                     )}
                   </div>
 
                   <div className="character-data-others-data">
-                    <h2>Veículos</h2>
+                    <h2>Vehicles</h2>
                     {vehicles.length > 0 ? (
                       <ul>
                         {vehicles.map((vehicle) => (
@@ -139,7 +139,7 @@ export default function CharacterPage() {
                         ))}
                       </ul>
                     ) : (
-                      <span>Não há.</span>
+                      <span>There is not</span>
                     )}
                   </div>
 

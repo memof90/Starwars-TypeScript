@@ -101,7 +101,7 @@ export default function Films() {
       {isLoading ? (
         <div className="loading">
           <Loading />
-          <span>Carregando dados...</span>
+          <span>loading data...</span>
         </div>
       ) : !isFavouriteSelected ? (
         <div className="cards">
@@ -135,7 +135,7 @@ export default function Films() {
         </div>
       ) : (
         <div className="no-favourite">
-          <span>Nenhum filme favorito</span>
+          <span>not favorite movie</span>
         </div>
       )}
     </Container>
