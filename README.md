@@ -1,4 +1,4 @@
-# Star Wars
+# Star Wars React TypeScript
 
 Star Wars is a React App that's consumes an external Star Wars' API.
 
@@ -62,13 +62,13 @@ The whole app was made with ReactJs. To style, it's uses styled-components.
 
 Others importants libs was used also:
 
-[x] React Redux (to save all favourites states)
-[x] Axios (to make requests to API);
-[x] Lottie (to make the animations with lottiefiles in JSON);
-[x] Lodash (to make debounce);
-[x] React Router DOM v6;
-[x] Polished;
-[x] React Icons.
+- [x] React Redux (to save all favourites states)
+- [x] Axios (to make requests to API);
+- [x] Lottie (to make the animations with lottiefiles in JSON);
+- [x] Lodash (to make debounce);
+- [x] React Router DOM v6;
+- [x] Polished;
+- [x] React Icons.
 
 ## About the Api
 All Data Provided By [SWAPI](https://swapi.dev/)
