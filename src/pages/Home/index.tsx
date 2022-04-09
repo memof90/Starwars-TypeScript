@@ -87,7 +87,7 @@ export default function Home() {
         {!isFavouriteSelected && (
           <InputSearch
             type="text"
-            placeholder="Digite o nome do personagem a ser buscado..."
+            placeholder="Enter the name of the character to be searched for..."
             onChange={(event) => debouncedOnChange(event)}
           />
         )}
@@ -104,7 +104,7 @@ export default function Home() {
             isSelected={isFavouriteSelected === true}
             onClick={() => setIsFavouriteSelected(true)}
           >
-            Favourites
+            Favorites
           </SelectButton>
         </div>
 
@@ -167,7 +167,7 @@ export default function Home() {
       {isLoading ? (
         <div className="loading">
           <Loading />
-          <span>Carregando dados...</span>
+          <span>Loading data...</span>
         </div>
       ) : !isFavouriteSelected ? (
         <div className="cards">
@@ -202,7 +202,7 @@ export default function Home() {
 
           {favouriteCharacters.length === 0 && (
             <div className="no-favourites">
-              <span>Nenhum favorito encontrado</span>
+              <span>no favorites found</span>
             </div>
           )}
         </div>
